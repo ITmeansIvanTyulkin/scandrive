@@ -1,0 +1,16 @@
+package ordersimportincms.pojo;
+
+import lombok.*;
+
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
+public class OutComingPoint {
+    private String name;
+    private Parameters parameters;
+    private String type;
+    private String url;
+}
