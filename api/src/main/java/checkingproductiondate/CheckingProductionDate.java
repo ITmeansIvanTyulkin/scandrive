@@ -23,7 +23,7 @@ public class CheckingProductionDate {
     private final Aggregation aggregation = new Aggregation();
     private static final Logger LOGGER = Logger.getLogger(CheckingProductionDate.class.getName());
 
-// PUBLIC ZONE.
+// PUBLIC ZONE.......
     // Методы.
     @Step("Создаю маршрут.")
     public void makingRoute() throws SQLException, InterruptedException {
